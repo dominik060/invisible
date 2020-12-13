@@ -209,4 +209,4 @@ přiskřip jsem si pytlík.
     await ctx.channel.send(response)
 
 
-bot.run('Nzg2MjM0MzcyMzg1ODAwMjEz.X9Db0Q.FSh2GgFTT8NrIz0Uhi2AnppATXY')
+bot.run(os.environ['TOKEN'])
