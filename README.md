@@ -1,2 +1,0 @@
-# Invisible-bot
-Discord bot.
