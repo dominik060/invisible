@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random
 import math
-from math import pi, sin, acos, e, erf, exp, log, asin, atan, inf, pow, tau, prod, ceil, comb, cos, cosh, dist, erfc, \
+from math import pi, sin, acos, e, erf, exp, log, asin, atan, inf, tau, ceil, comb, cos, cosh, dist, erfc, \
     fabs, fmod, fsum, gcd, log2, modf, nan, perm, sinh, sqrt, __spec__, tan, tanh, acosh, asinh, atan2, atanh, expm1, \
     floor, frexp, gamma, hypot, isinf, isnan, isqrt, __loader__, ldexp, log1p, log10, trunc, lgamma, copysign, degrees, \
     factorial, isclose, isfinite, radians, remainder
