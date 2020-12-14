@@ -1,2 +1,8 @@
+arg==0.0.1
+ctx==0.1.2
 discord==1.0.1
 discord.py==1.5.1
+Random-Word==1.0.4
+randomword==1.0.2
+RandomWords==0.3.0
+requests==2.24.0
