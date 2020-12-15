@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random
 import math
-from math import pi
+from math import pi, log
 import time
 import requests
 from discord.ext.commands import Bot
