@@ -67,8 +67,8 @@ async def info(ctx):
     em.set_author(name=ctx.message.author.name, icon_url=ctx.message.author.avatar_url)
     em.description = 'Vytvořen D0M1.'
     em.add_field(name="Servery", value=len(bot.guilds))
-    em.add_field(name="Online Uživatelé",
-                 value=str(len({m.id for m in bot.get_all_members() if m.status is not discord.Status.offline})))
+    em.add_field(name="Online Uživatelé", value=str(len({m.id for m in bot.get_all_members() if m.status is not discord.Status.offline})))
+    em.add_field(name="Ofline Uživatelé", value=str(len({m.id for m in bot.get_all_members() if m.status is not discord.Status.online})))
     em.add_field(name='Kanály', value=f"{sum(1 for g in bot.guilds for _ in g.channels)}")
     em.set_footer(text="Invisible bot | D0M1")
     await ctx.channel.send(embed=em)
