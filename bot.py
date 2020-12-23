@@ -33,7 +33,7 @@ async def on_command_error(ctx, error):
 # ----------------------------------------------------------------------------------------------------------------------
 #   Commands
 @bot.command()
-async def vs(self, ctx, h: int):
+async def vs(ctx, h: int):
     r = ""
     n = "\n"
     for i in range(1, h):
