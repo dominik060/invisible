@@ -33,6 +33,18 @@ async def on_command_error(ctx, error):
 # ----------------------------------------------------------------------------------------------------------------------
 #   Commands
 @bot.command()
+async def vs(self, ctx, h: int):
+    r = ""
+    n = "\n"
+    for i in range(1, h):
+        r += (h - i) * " " + i * "*" + (i - 1) * "*"+"\n"
+    r += (h - 1) * " " + "|"
+    await ctx.send(f"""```
+    {n}{r}
+    ```""")
+        
+        
+@bot.command()
 async def help(ctx):
     em = discord.Embed(color=discord.Color.green())
     em.title = 'Invisible bot commands'
