@@ -27,7 +27,7 @@ async def on_ready():
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, discord.ext.commands.errors.CommandNotFound):
-        await ctx.channel.send("That command wasn't found! Try xd help")
+        await ctx.channel.send("I don't know this command! Try xd help")
 
 
 # ----------------------------------------------------------------------------------------------------------------------
